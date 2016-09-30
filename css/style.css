@@ -1,0 +1,55 @@
+body {
+  background-color: grey;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	background-color: grey;
+}
+
+p em{
+	font-size: 18px;
+}
+
+ol > li:first-child{
+	color: red;
+}
+
+span, a{
+	font-size: 48px;
+}
+
+.color-red, a{
+	color: red;
+}
+
+#mytable{
+	background-color: green;
+}
+
+.on-left{
+	background-color: green;
+	width: 50%;
+	color: white;
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+.on-right{
+	background-color: blue;
+	width: 50%;
+	color: white;
+	float: right;
+	text-align: center;
+	padding: 10px;
+}
+.container{
+	overflow: hidden;
+}
+.on-bottom{
+	background-color: red;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
